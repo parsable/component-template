@@ -1,14 +1,10 @@
 import React from 'react';
-import styles from './{{pascal}}.css';
+import * as Types from '{{pascal}}Props';
 
-interface {{pascal}}Props {
-  /** The value for the component to display */
-  value?: string;
+/** Write a simple component overview here. */
+export const {{pascal}} = (props: Types.{{pascal}}Props) => {
+  return <div>This is a {{pascal}} component {props.value}</div>;
 }
 
-/** A simple component. */
-export const {{pascal}} = (props: {{pascal}}Props) => {
-  return <div className={styles.{{camel}}}>This is a {{pascal}} component {props.value}</div>;
-}
-
+export * from './types';
 export default {{pascal}};
