@@ -20,7 +20,8 @@
     "size": "ds size"
   },
   "dependencies": {
-    "@babel/runtime": "7.7.2"
+    "@babel/runtime": "7.7.2",
+    "@bolt/box": "link:../Box"
   },
   "peerDependencies": {
     "react": ">= 16.8.6"
@@ -32,6 +33,7 @@
     "!*theme.*",
     "!*.test.*",
     "!__snapshots__",
-    "!__tests__"
+    "!__tests__",
+    "!__automation__"
   ]
 }

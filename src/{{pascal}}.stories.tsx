@@ -4,7 +4,8 @@ import {{pascal}} from '.';
 import notes from '../README.md';
 
 export default {
-  title: 'Components|{{title}}',
+  title: '{{title}}',
+  component: {{pascal}},
   parameters: { notes }
 };
 
